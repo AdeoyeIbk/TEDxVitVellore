@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 
 interface CardProps {
   children: ReactNode;
-  variant?: "default" | "elevated" | "outlined" | "ghost" | "gradient";
-  padding?: "sm" | "md" | "lg" | "xl";
+  variant?: "default" | "elevated" | "outlined" | "ghost" | "gradient" | "custom";
+  padding?: "sm" | "md" | "lg" | "xl" | "none";
   className?: string;
   hoverable?: boolean;
   onClick?: () => void;
@@ -31,9 +31,11 @@ export default function Card({
     outlined: "bg-white border-2 border-tedx-red/20 shadow-sm",
     ghost: "bg-white/5 backdrop-blur-sm border border-white/10",
     gradient: "bg-tedx-gradient text-white shadow-lg",
+    custom: "flex flex-col gap-2",
   };
 
   const paddings = {
+    none: "p-0",
     sm: "p-3 sm:p-4",
     md: "p-4 sm:p-6",
     lg: "p-6 sm:p-8",
