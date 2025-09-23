@@ -26,6 +26,10 @@
     color: #ffffff;
   }
 
+  p {
+    line-height: 250%;
+  }
+
   /* Override default link styles */
   a {
     color: #e62b1e;
