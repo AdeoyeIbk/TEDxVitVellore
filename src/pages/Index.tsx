@@ -1,6 +1,7 @@
 import HeroSection from "../components/sections/HeroSection";
 import AboutSection from "../components/sections/AboutSection";
 import EventsSection from "../components/sections/EventsSection";
+import BlogSection from "../components/sections/BlogSection";
 
 export default function Index() {
   return (
@@ -8,6 +9,7 @@ export default function Index() {
       <HeroSection />
       <AboutSection />
       <EventsSection />
+      <BlogSection />
     </div>
   );
 }
