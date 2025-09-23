@@ -22,7 +22,8 @@ export default function Card({
   delay = 0.2,
   direction = "up",
 }: CardProps) {
-  const baseClasses = "rounded-lg sm:rounded-xl lg:rounded-2xl transition-all duration-300";
+  const baseClasses =
+    "rounded-lg sm:rounded-xl lg:rounded-2xl transition-all duration-300";
 
   const variants = {
     default: "bg-white shadow-lg border border-gray-100",

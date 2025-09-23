@@ -35,9 +35,9 @@ export default function AboutSection() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. <br className="hidden sm:block" /> Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            aliquip ex ea commodo consequat. <br className="hidden sm:block" />{" "}
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
           </motion.p>
           <motion.p
             className="font-thin text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left"

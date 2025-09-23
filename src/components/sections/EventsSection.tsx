@@ -71,8 +71,8 @@ export default function EventsSection() {
           </motion.div>
           <motion.div className="mt-4 flex justify-center lg:justify-start">
             <Button variant="outline" size="md">
-                         Buy Tickets
-                       </Button>
+              Buy Tickets
+            </Button>
           </motion.div>
         </motion.div>
       </motion.div>

@@ -26,18 +26,20 @@ export default function BlogSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <motion.div className="flex flex-col gap-2 lg:gap-3">
-              <motion.h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight">
-                Doing <span className="uppercase">Nothing</span> is sometimes <br className="hidden sm:block" /> <span className="uppercase">Everything</span>
-              </motion.h3>
-                <motion.p className="font-light text-sm sm:text-base lg:text-lg">
-                 By Oshika
-                </motion.p>
+            <motion.h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight">
+              Doing <span className="uppercase">Nothing</span> is sometimes{" "}
+              <br className="hidden sm:block" />{" "}
+              <span className="uppercase">Everything</span>
+            </motion.h3>
+            <motion.p className="font-light text-sm sm:text-base lg:text-lg">
+              By Oshika
+            </motion.p>
           </motion.div>
           {/* read full blog button*/}
           <motion.div className="flex justify-center lg:justify-start">
-              <Button variant="outline" size="md">
-                Read full blog
-              </Button>
+            <Button variant="outline" size="md">
+              Read full blog
+            </Button>
           </motion.div>
         </motion.div>
         <motion.img
