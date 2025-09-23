@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Reset/Override default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    background-color: #010101;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Override default heading styles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ffffff;
+  }
+
+  /* Override default link styles */
+  a {
+    color: #e62b1e;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ff4757;
+  }
+
+  /* Override default button styles */
+  button {
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Override default input styles */
+  input,
+  textarea,
+  select {
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: #e62b1e;
+  }
+}
+
+#root {
+  background-color: #010101;
+  min-height: 100vh;
+}
