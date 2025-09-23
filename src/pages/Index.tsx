@@ -144,12 +144,6 @@ export default function Index() {
           />
         </motion.div>
       </motion.section>
-
-      {/* team section */}
-      <motion.section  className="h-lvh flex">
-        <motion.div></motion.div>
-        <motion.div></motion.div>
-      </motion.section>
     </>
   );
 }

@@ -14,7 +14,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 px-12">
+    <header className="absolute inset-x-0 top-0 z-50">
       <nav
         aria-label="Global"
         className="flex items-center justify-between p-6 lg:px-8"
@@ -52,10 +52,15 @@ export default function Header() {
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-50" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <img src={tedxLogo} alt="TEDx Logo" className="h-12 w-auto" />
+              <span className="sr-only">Your Company</span>
+              <img
+                alt=""
+                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                className="h-8 w-auto"
+              />
             </a>
             <button
               type="button"
@@ -73,7 +78,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-4 block rounded-lg px-3 py-2 text-base/7text-white hover:bg-white/5"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7text-white hover:bg-white/5"
                   >
                     {item.name}
                   </a>
