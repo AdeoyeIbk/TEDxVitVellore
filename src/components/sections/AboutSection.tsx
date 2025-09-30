@@ -25,7 +25,7 @@ export default function AboutSection() {
       <motion.div className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-between w-full max-w-6xl">
         <motion.div className="flex gap-4 lg:gap-6 flex-col w-full lg:w-1/2 order-2 lg:order-1">
           <motion.p
-            className="font-thin text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left"
+            className="font-light     text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left"
             initial={{ opacity: 0, y: 20 }}
             animate={
               isAboutInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
@@ -40,7 +40,7 @@ export default function AboutSection() {
             cillum dolore eu fugiat nulla pariatur.
           </motion.p>
           <motion.p
-            className="font-thin text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left"
+            className="font-light     text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left"
             initial={{ opacity: 0, y: 20 }}
             animate={
               isAboutInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }

@@ -56,7 +56,7 @@ export default function EventsSection() {
           >
             Meraki
           </motion.h3>
-          <motion.p className="font-thin leading-6 text-sm sm:text-base lg:text-lg max-w-md text-center sm:text-left">
+          <motion.p className="font-light   leading-6 text-sm sm:text-base lg:text-lg max-w-md text-center sm:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
