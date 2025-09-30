@@ -45,7 +45,7 @@ export default function EventsSection() {
             transition: { duration: 0.3 },
           }}
         />
-        <motion.div className="flex flex-col gap-3 lg:gap-4 text-center lg:text-left w-full lg:w-auto">
+        <motion.div className="flex flex-col gap-3 lg:gap-4 text-center items-center justify-center lg:text-left  w-full lg:w-auto">
           <motion.h3
             className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-1"
             initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ export default function EventsSection() {
           >
             Meraki
           </motion.h3>
-          <motion.p className="font-thin leading-6 text-sm sm:text-base lg:text-lg max-w-md">
+          <motion.p className="font-thin leading-6 text-sm sm:text-base lg:text-lg max-w-md text-center sm:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam

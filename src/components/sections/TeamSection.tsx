@@ -115,7 +115,7 @@ export default function TeamSection() {
   };
 
   return (
-    <motion.section
+    <motion.section id="team"
       ref={sectionRef}
       className="flex flex-col gap-40 items-center"
       initial={{ opacity: 0, y: 50 }}

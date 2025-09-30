@@ -14,6 +14,7 @@
     background-color: #010101;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
   }
 
   /* Override default heading styles */

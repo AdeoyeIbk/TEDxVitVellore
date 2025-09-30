@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 
 export default function HeroSection() {
   return (
-    <motion.section
+    <motion.section id="hero"
       className="flex flex-col lg:flex-row items-center justify-center lg:justify-around text-center lg:text-left px-4 sm:px-8 lg:px-24 py-8 sm:py-16 lg:py-24 mt-4 gap-8 lg:gap-16 min-h-screen lg:h-vh"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}

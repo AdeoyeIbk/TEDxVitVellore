@@ -8,7 +8,7 @@ export default function BlogSection() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.3 });
 
   return (
-    <motion.section
+    <motion.section id="blog"
       ref={sectionRef}
       className="flex flex-col items-center justify-between gap-8 lg:gap-16 min-h-screen lg:h-vh px-4 sm:px-8 lg:px-12 py-8 sm:py-16"
       initial={{ opacity: 0, y: 50 }}

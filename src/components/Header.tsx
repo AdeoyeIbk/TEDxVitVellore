@@ -4,10 +4,10 @@ import { Menu, X } from "lucide-react";
 import tedxLogo from "../assets/images/tedxlogo.png";
 
 const navigation = [
-  { name: "Blog", href: "#" },
-  { name: "About us", href: "#" },
-  { name: "Team", href: "#" },
-  { name: "Sponsors", href: "#" },
+  { name: "Blog", href: "#blog" },
+  { name: "About us", href: "#about" },
+  { name: "Team", href: "#team" },
+  { name: "Sponsors", href: "#sponsors" },
 ];
 
 export default function Header() {
