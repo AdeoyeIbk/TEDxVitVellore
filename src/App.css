@@ -67,3 +67,7 @@
   background-color: #010101;
   min-height: 100vh;
 }
+
+@theme {
+  --footer-bg: #101010;
+}
