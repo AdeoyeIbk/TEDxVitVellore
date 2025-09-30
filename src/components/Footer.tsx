@@ -77,7 +77,7 @@ export default function Footer() {
             </SocialIcon>
           </motion.div>
           <motion.p
-            className="text-xs sm:text-sm font-light text-gray-300"
+            className="text-sm sm:text-sm font-light text-gray-300"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 1.0 }}
@@ -117,7 +117,7 @@ export default function Footer() {
             ].map((link, index) => (
               <motion.p
                 key={link}
-                className="text-xs sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
+                className="text-sm sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
                 initial={{ opacity: 0, x: -10 }}
                 animate={
                   isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }
@@ -156,7 +156,7 @@ export default function Footer() {
               (resource, index) => (
                 <motion.p
                   key={resource}
-                  className="text-xs sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
+                  className="text-sm sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
                   initial={{ opacity: 0, x: -10 }}
                   animate={
                     isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }
@@ -193,7 +193,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 1.4 }}
           >
             <motion.p
-              className="text-xs sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
+              className="text-sm sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
               initial={{ opacity: 0, x: -10 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }}
               transition={{ duration: 0.4, delay: 1.6 }}
@@ -202,7 +202,7 @@ export default function Footer() {
               +1 (234) 567-890
             </motion.p>
             <motion.p
-              className="text-xs sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
+              className="text-sm sm:text-sm font-light hover:text-red-500 cursor-pointer transition-colors duration-200"
               initial={{ opacity: 0, x: -10 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }}
               transition={{ duration: 0.4, delay: 1.7 }}
