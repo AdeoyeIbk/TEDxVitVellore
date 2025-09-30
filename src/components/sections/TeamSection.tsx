@@ -115,7 +115,8 @@ export default function TeamSection() {
   };
 
   return (
-    <motion.section id="team"
+    <motion.section
+      id="team"
       ref={sectionRef}
       className="flex flex-col gap-40 items-center"
       initial={{ opacity: 0, y: 50 }}
@@ -123,7 +124,7 @@ export default function TeamSection() {
       transition={{ duration: 0.8 }}
     >
       <motion.h2
-        className="text-2xl font-bold"
+        className="text-2xl    sm:text-3xl lg:text-4xl font-bold text-center"
         initial={{ opacity: 0, y: 30 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
         transition={{ duration: 0.6, delay: 0.2 }}

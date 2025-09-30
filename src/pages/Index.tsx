@@ -3,6 +3,7 @@ import AboutSection from "../components/sections/AboutSection";
 import EventsSection from "../components/sections/EventsSection";
 import BlogSection from "../components/sections/BlogSection";
 import TeamSection from "../components/sections/TeamSection"
+import SponsorsSection from "../components/sections/Sponsors";   
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <EventsSection />
       <BlogSection />
       <TeamSection />
+      <SponsorsSection /> 
     </div>
   );
 }
